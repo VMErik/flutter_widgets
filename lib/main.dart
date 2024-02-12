@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_app/pages/container_screen.dart';
+import 'package:flutter_widgets_app/pages/home_screen.dart';
+import 'package:flutter_widgets_app/routes/routes.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -9,22 +13,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Container(
-            alignment: Alignment.center,
-            width: 400,
-            height: 300,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: Colors.green,
-            ),
-            child : const Text('Hola, soy un contenedor'),
-          ),
-        )
-      ),
+      home: const HomeScreen(),
+      routes: RouterApp.routes
     );
   }
 }
