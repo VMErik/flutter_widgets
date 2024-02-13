@@ -27,6 +27,14 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed('/expanded');
             },
           ), 
+          ListTile(
+            title:  const Text('Column'),
+            subtitle: const Text('Widget que apila sus widgets hijos de forma vertical'),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
+            onTap: (){
+              Navigator.of(context).pushNamed('/column');
+            },
+          ), 
         ],
       ),
     );
