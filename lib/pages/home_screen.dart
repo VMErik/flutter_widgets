@@ -35,6 +35,14 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed('/column');
             },
           ), 
+          ListTile(
+            title:  const Text('Row'),
+            subtitle: const Text('Se utiliza para colocar widgets de forma horizontal'),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
+            onTap: (){
+              Navigator.of(context).pushNamed('/rows');
+            },
+          ), 
         ],
       ),
     );
