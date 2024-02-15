@@ -43,6 +43,14 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed('/rows');
             },
           ), 
+           ListTile(
+            title:  const Text('List View'),
+            subtitle: const Text('Es una lista que permite scroll de widgets alineados de forma vertical'),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
+            onTap: (){
+              Navigator.of(context).pushNamed('/listview');
+            },
+          ), 
         ],
       ),
     );
