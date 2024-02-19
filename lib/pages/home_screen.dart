@@ -55,6 +55,15 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed('/cliprrect');
             },
           ),
+           ListTile(
+            title: const Text('Image Asset'),
+            subtitle: const Text(
+                'Nos permite cargar una imagen desde el directorio de nuestra aplicación'),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
+            onTap: () {
+              Navigator.of(context).pushNamed('/imageasset');
+            },
+          ),
         ],
       ),
     );

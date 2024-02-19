@@ -17,6 +17,7 @@ class ClipRRectScreen extends StatelessWidget {
         ),
         body: Center(
           child: ClipRRect(
+            // Asignamos un borde de tipo circular (redondeado)
             borderRadius: BorderRadius.circular(50),
             child: Container(
               width: 300,
