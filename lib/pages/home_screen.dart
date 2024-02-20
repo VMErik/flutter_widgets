@@ -64,6 +64,15 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).pushNamed('/imageasset');
             },
           ),
+           ListTile(
+            title: const Text('Grid View'),
+            subtitle: const Text(
+                'Nos permite mostrar elementos en una cuadricula'),
+            trailing: const Icon(Icons.arrow_forward_ios_outlined),
+            onTap: () {
+              Navigator.of(context).pushNamed('/gridview');
+            },
+          ),
         ],
       ),
     );

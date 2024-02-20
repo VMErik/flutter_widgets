@@ -20,4 +20,4 @@ flutter:
   uses-material-design: true
   # Indicamos el directorio de nuestros assets
   assets:
-    - assets/img/
+    - assets/img/ #directorio de nuestras imagenes
