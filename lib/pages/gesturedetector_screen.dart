@@ -9,8 +9,8 @@ class GestureDetectorScreen extends StatefulWidget {
 class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
   int contador = 0;
   incrementarContador() {
-    // Actualizamos el contador, mediante el setState, el cual se encargara
-    // De redibujar nuestra pantalla, tomando el nuevo valor de contador
+    // Actualizara el valor de nuestro contador 
+    // y redibujara la pantalla con el nuevo valor
     setState(() {
       contador++;
     });
@@ -39,7 +39,7 @@ class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
             GestureDetector(
               // Controlaremos cuando el usuario haga tap sobre el container
               onTap: () {
-                // Mandamos a llamar a nuestra funcion
+                // Mandamos a llamar a nuestra funcion cuando se haga tap sobre el container
                 incrementarContador();
               },
               child: Container(

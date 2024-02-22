@@ -59,6 +59,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite contrlar 'los eventos' que se realizan sobre pantalla, como doble tap, tap, scroll, etc.",
             route: "gesturedetector",
           ),
+              MyListTile(
+            name: "Bottom Nav Bar",
+            description:
+                "Nos permite visualizar en la parte inferior de la pantalla un menu de opciones para desplazarnos a traves de diferentes vistas",
+            route: "bottomnavbar",
+          ),
         ],
       ),
     );
