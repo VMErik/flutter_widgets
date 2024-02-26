@@ -12,13 +12,16 @@ class MyListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-            title:  Text(name),
-            subtitle:  Text(description),
-            trailing:  const Icon(Icons.arrow_forward_ios_outlined),
-            onTap: () {
-              Navigator.of(context).pushNamed('/$route');
-            },
-          );
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: ListTile(
+              title:  Text(name),
+              subtitle:  Text(description),
+              trailing:  const Icon(Icons.arrow_forward_ios_outlined),
+              onTap: () {
+                Navigator.of(context).pushNamed('/$route');
+              },
+            ),
+    );
   }
 }

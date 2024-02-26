@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_app/pages/appbar_screen.dart';
 import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
 import 'package:flutter_widgets_app/pages/column_screen.dart';
@@ -22,6 +23,8 @@ class RouterApp{
     '/gridview' : (BuildContext context) => const GridViewScreen(),
     '/gesturedetector' : (BuildContext context) => const GestureDetectorScreen(),
     '/bottomnavbar' : (BuildContext context) => const BottomNavBarScreen(),
+    '/appbar' : (BuildContext context) => const AppBarScreen(),
+
 
   };
 }

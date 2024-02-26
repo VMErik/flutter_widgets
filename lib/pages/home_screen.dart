@@ -25,45 +25,47 @@ class HomeScreen extends StatelessWidget {
           ),
           MyListTile(
             name: "Column",
-            description:
-                "Widget que apila sus widgets hijos de forma vertical",
+            description: "Widget que apila sus widgets hijos de forma vertical",
             route: "column",
           ),
           MyListTile(
             name: "Row",
-            description:
-                "Se utiliza para colocar widgets de forma horizontal",
+            description: "Se utiliza para colocar widgets de forma horizontal",
             route: "rows",
           ),
-           MyListTile(
+          MyListTile(
             name: "ClipRRect",
-            description:
-                "Sirve para dar border contorneados",
+            description: "Sirve para dar border contorneados",
             route: "cliprrect",
           ),
-           MyListTile(
+          MyListTile(
             name: "Image Asset",
             description:
                 "Nos permite cargar una imagen desde el directorio de nuestra aplicación",
             route: "imageasset",
           ),
-           MyListTile(
+          MyListTile(
             name: "Grid View",
-            description:
-                "Nos permite mostrar elementos en una cuadricula",
+            description: "Nos permite mostrar elementos en una cuadricula",
             route: "gridview",
           ),
-           MyListTile(
+          MyListTile(
             name: "Gesture Detector",
             description:
-                "Permite contrlar 'los eventos' que se realizan sobre pantalla, como doble tap, tap, scroll, etc.",
+                "Permite controlar 'los eventos' que se realizan sobre pantalla, como doble tap, tap, scroll, etc.",
             route: "gesturedetector",
           ),
-              MyListTile(
+          MyListTile(
             name: "Bottom Nav Bar",
             description:
                 "Nos permite visualizar en la parte inferior de la pantalla un menu de opciones para desplazarnos a traves de diferentes vistas",
             route: "bottomnavbar",
+          ),
+          MyListTile(
+            name: "AppBar",
+            description:
+                "Widget colocado en la parte superior de la pantalla, normalmente utilizado para operaciones comunes, como acciones o menus",
+            route: "appbar",
           ),
         ],
       ),
