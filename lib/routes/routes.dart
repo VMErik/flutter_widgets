@@ -4,6 +4,7 @@ import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
 import 'package:flutter_widgets_app/pages/column_screen.dart';
 import 'package:flutter_widgets_app/pages/container_screen.dart';
+import 'package:flutter_widgets_app/pages/drawer_screen.dart';
 import 'package:flutter_widgets_app/pages/expanded_screen.dart';
 import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
 import 'package:flutter_widgets_app/pages/gridview_screen.dart';
@@ -24,6 +25,7 @@ class RouterApp{
     '/gesturedetector' : (BuildContext context) => const GestureDetectorScreen(),
     '/bottomnavbar' : (BuildContext context) => const BottomNavBarScreen(),
     '/appbar' : (BuildContext context) => const AppBarScreen(),
+    '/drawer' : (BuildContext context) => const DrawerScreen(),
 
 
   };

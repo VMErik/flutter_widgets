@@ -67,6 +67,12 @@ class HomeScreen extends StatelessWidget {
                 "Widget colocado en la parte superior de la pantalla, normalmente utilizado para operaciones comunes, como acciones o menus",
             route: "appbar",
           ),
+           MyListTile(
+            name: "Drawer",
+            description:
+                "Muestra un menu lateral el cual esta asociado con nuestro Appbar",
+            route: "drawer",
+          ),
         ],
       ),
     );
