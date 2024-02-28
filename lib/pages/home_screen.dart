@@ -10,8 +10,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Widgets Flutter'),
       ),
-      body: const Column(
-        children: [
+      body: ListView(
+        children: const [
           MyListTile(
             name: "Container",
             description: "Contenedor lo mas parecido a una caja",
@@ -72,6 +72,12 @@ class HomeScreen extends StatelessWidget {
             description:
                 "Muestra un menu lateral el cual esta asociado con nuestro Appbar",
             route: "drawer",
+          ),
+           MyListTile(
+            name: "SliverAppBar",
+            description:
+                "Una forma mas elegante de mostrar un AppBar con una animacion al hacer scroll",
+            route: "sliverapp",
           ),
         ],
       ),
