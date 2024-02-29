@@ -12,6 +12,7 @@ import 'package:flutter_widgets_app/pages/imageasset_screen.dart';
 import 'package:flutter_widgets_app/pages/list_view_screen.dart';
 import 'package:flutter_widgets_app/pages/row_screen.dart';
 import 'package:flutter_widgets_app/pages/sliverappbar_screen.dart';
+import 'package:flutter_widgets_app/pages/tabbar_screen.dart';
 
 class RouterApp{
   static Map<String , WidgetBuilder> routes = {
@@ -28,6 +29,7 @@ class RouterApp{
     '/appbar' : (BuildContext context) => const AppBarScreen(),
     '/drawer' : (BuildContext context) => const DrawerScreen(),
     '/sliverapp' : (BuildContext context) => const SliverAppBarScreen(),
+    '/tabbar' : (BuildContext context) => const TabBarScreen(),
 
 
   };

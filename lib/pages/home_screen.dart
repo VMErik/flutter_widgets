@@ -79,6 +79,12 @@ class HomeScreen extends StatelessWidget {
                 "Una forma mas elegante de mostrar un AppBar con una animacion al hacer scroll",
             route: "sliverapp",
           ),
+            MyListTile(
+            name: "TabBar",
+            description:
+                "Nos permite agrupar en pestañas o tabs contenido dentro de nuestra screen",
+            route: "tabbar",
+          ),
         ],
       ),
     );
