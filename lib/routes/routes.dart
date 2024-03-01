@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_app/pages/animatedcontainer_screen.dart';
 import 'package:flutter_widgets_app/pages/appbar_screen.dart';
 import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
@@ -30,6 +31,8 @@ class RouterApp{
     '/drawer' : (BuildContext context) => const DrawerScreen(),
     '/sliverapp' : (BuildContext context) => const SliverAppBarScreen(),
     '/tabbar' : (BuildContext context) => const TabBarScreen(),
+    '/animatedcontainer' : (BuildContext context) => const AnimatedContainerScreen(),
+
 
 
   };

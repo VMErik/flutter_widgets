@@ -85,6 +85,12 @@ class HomeScreen extends StatelessWidget {
                 "Nos permite agrupar en pestañas o tabs contenido dentro de nuestra screen",
             route: "tabbar",
           ),
+          MyListTile(
+            name: "AnimatedContainer",
+            description:
+                "Nos permite crear contenedores de la forma tradicional pero con la peculiaridad de cambiar propiedades y animar estos cambios mediante transiciones",
+            route: "animatedcontainer",
+          ),
         ],
       ),
     );
