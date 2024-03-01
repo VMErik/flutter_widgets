@@ -8,12 +8,6 @@ class ExpandedScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Expanded'),
-          leading: GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
         ),
         body: Column(
           children: [

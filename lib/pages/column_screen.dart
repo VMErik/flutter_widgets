@@ -8,12 +8,6 @@ class ColumnScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Column'),
-          leading: GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
         ),
         body: Column(
           // Indicamos de forma vertical como sera el 

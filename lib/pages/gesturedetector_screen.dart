@@ -20,12 +20,6 @@ class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Gesture Detector'),
-          leading: GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
         ),
         body: Center(
             child: Column(

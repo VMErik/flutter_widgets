@@ -8,12 +8,7 @@ class GridViewScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('GridView'),
-          leading: GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
+         
         ),
         body: GridView.builder(
           // Indicamos el efecto que tendra al hacer scroll

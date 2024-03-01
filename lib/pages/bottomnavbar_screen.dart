@@ -22,12 +22,6 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bottom Nav Bar'),
-        leading: GestureDetector(
-          onTap: () {
-            Navigator.of(context).pop();
-          },
-          child: const Icon(Icons.arrow_back_ios_new_rounded),
-        ),
       ),
       // Dentro del body del scaffol mostraremos nuestro primer widget, mandando el indice de la variable auxiliar
       body: pages[_selectedIndex],

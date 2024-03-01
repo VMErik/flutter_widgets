@@ -10,12 +10,6 @@ class ContainerScreen extends StatelessWidget {
     return   Scaffold(
         appBar: AppBar(
           title: const Text('Container'),
-          leading: GestureDetector(
-            onTap: (){
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
         ),
         body: Center(
           child: Container(

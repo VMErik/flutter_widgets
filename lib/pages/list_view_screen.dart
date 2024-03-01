@@ -8,12 +8,7 @@ class ListViewScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('List View'),
-          leading: GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.arrow_back_ios_new_rounded),
-          ),
+         
         ),
         body: ListView(
           // Controlamos la animacion o efecto del scroll
