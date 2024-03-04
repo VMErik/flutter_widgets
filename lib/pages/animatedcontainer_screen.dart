@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 
+// Haremos uso de stateful widget, para notifcar cambios de estados
 class AnimatedContainerScreen extends StatefulWidget {
   const AnimatedContainerScreen({super.key});
 

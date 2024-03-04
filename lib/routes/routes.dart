@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_app/pages/alertdialog_screen.dart';
 import 'package:flutter_widgets_app/pages/animatedcontainer_screen.dart';
 import 'package:flutter_widgets_app/pages/appbar_screen.dart';
 import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
@@ -32,6 +33,7 @@ class RouterApp{
     '/sliverapp' : (BuildContext context) => const SliverAppBarScreen(),
     '/tabbar' : (BuildContext context) => const TabBarScreen(),
     '/animatedcontainer' : (BuildContext context) => const AnimatedContainerScreen(),
+    '/alertdialog' : (BuildContext context) => const AlertDialogScreen(),
 
 
 

@@ -91,6 +91,12 @@ class HomeScreen extends StatelessWidget {
                 "Nos permite crear contenedores de la forma tradicional pero con la peculiaridad de cambiar propiedades y animar estos cambios mediante transiciones",
             route: "animatedcontainer",
           ),
+            MyListTile(
+            name: "AlertDialog",
+            description:
+                "Se utiliza para mostrar mensajes informativos en pantalla, con la capacidad tambien de generar interacion con el usuario",
+            route: "alertdialog",
+          ),
         ],
       ),
     );
