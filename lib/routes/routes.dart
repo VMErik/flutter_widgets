@@ -12,9 +12,11 @@ import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
 import 'package:flutter_widgets_app/pages/gridview_screen.dart';
 import 'package:flutter_widgets_app/pages/imageasset_screen.dart';
 import 'package:flutter_widgets_app/pages/list_view_screen.dart';
+import 'package:flutter_widgets_app/pages/richtext_screen.dart';
 import 'package:flutter_widgets_app/pages/row_screen.dart';
 import 'package:flutter_widgets_app/pages/sliverappbar_screen.dart';
 import 'package:flutter_widgets_app/pages/tabbar_screen.dart';
+import 'package:flutter_widgets_app/pages/text_screen.dart';
 
 class RouterApp{
   static Map<String , WidgetBuilder> routes = {
@@ -34,7 +36,8 @@ class RouterApp{
     '/tabbar' : (BuildContext context) => const TabBarScreen(),
     '/animatedcontainer' : (BuildContext context) => const AnimatedContainerScreen(),
     '/alertdialog' : (BuildContext context) => const AlertDialogScreen(),
-
+    '/text' : (BuildContext context) => const TextStyleScreen(),
+    '/richtext' : (BuildContext context) => const RichTextScreen(),
 
 
   };

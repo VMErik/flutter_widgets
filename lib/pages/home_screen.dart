@@ -97,6 +97,18 @@ class HomeScreen extends StatelessWidget {
                 "Se utiliza para mostrar mensajes informativos en pantalla, con la capacidad tambien de generar interacion con el usuario",
             route: "alertdialog",
           ),
+             MyListTile(
+            name: "Text",
+            description:
+                "Representa un texto en nuestra aplicacion, el cual puede ser altamente personalizado",
+            route: "text",
+          ),
+                 MyListTile(
+            name: "RichText",
+            description:
+                "Nos permite estilizar mas a fond un texto, dividiendolo por pequeñas partes y accediendo a cada una de ellas de forma individual",
+            route: "richtext",
+          ),
         ],
       ),
     );
