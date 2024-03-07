@@ -109,6 +109,12 @@ class HomeScreen extends StatelessWidget {
                 "Nos permite estilizar mas a fond un texto, dividiendolo por pequeñas partes y accediendo a cada una de ellas de forma individual",
             route: "richtext",
           ),
+                 MyListTile(
+            name: "PageView",
+            description:
+                "Es una lista a la que se le puede hacer scroll de forma horizontal o vertical,mostrando slamente un hijo a la vez",
+            route: "pageview",
+          ),
         ],
       ),
     );

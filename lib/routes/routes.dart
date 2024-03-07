@@ -12,6 +12,7 @@ import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
 import 'package:flutter_widgets_app/pages/gridview_screen.dart';
 import 'package:flutter_widgets_app/pages/imageasset_screen.dart';
 import 'package:flutter_widgets_app/pages/list_view_screen.dart';
+import 'package:flutter_widgets_app/pages/pageview_screen.dart';
 import 'package:flutter_widgets_app/pages/richtext_screen.dart';
 import 'package:flutter_widgets_app/pages/row_screen.dart';
 import 'package:flutter_widgets_app/pages/sliverappbar_screen.dart';
@@ -38,6 +39,7 @@ class RouterApp{
     '/alertdialog' : (BuildContext context) => const AlertDialogScreen(),
     '/text' : (BuildContext context) => const TextStyleScreen(),
     '/richtext' : (BuildContext context) => const RichTextScreen(),
+    '/pageview' : (BuildContext context) => PageViewScreen(),
 
 
   };
