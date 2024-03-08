@@ -115,6 +115,12 @@ class HomeScreen extends StatelessWidget {
                 "Es una lista a la que se le puede hacer scroll de forma horizontal o vertical,mostrando slamente un hijo a la vez",
             route: "pageview",
           ),
+                   MyListTile(
+            name: "Stack",
+            description:
+                "Sirve para posicionar elementos uno encima del otro, pudiendo ocupar un mismo espacio en pantalla",
+            route: "stack",
+          ),
         ],
       ),
     );
