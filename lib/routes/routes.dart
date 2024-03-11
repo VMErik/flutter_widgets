@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_app/pages/alertdialog_screen.dart';
 import 'package:flutter_widgets_app/pages/animatedcontainer_screen.dart';
+import 'package:flutter_widgets_app/pages/animatedicon_screen.dart';
 import 'package:flutter_widgets_app/pages/appbar_screen.dart';
 import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
@@ -41,7 +42,8 @@ class RouterApp{
     '/text' : (BuildContext context) => const TextStyleScreen(),
     '/richtext' : (BuildContext context) => const RichTextScreen(),
     '/pageview' : (BuildContext context) => PageViewScreen(),
-    '/stack' : (BuildContext context) => StackScreen(),
+    '/stack' : (BuildContext context) => const StackScreen(),
+    '/animatedicon' : (BuildContext context) => const AnimatedIconScreen(),
 
 
   };

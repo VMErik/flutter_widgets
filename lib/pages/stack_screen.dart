@@ -13,8 +13,11 @@ class StackScreen extends StatelessWidget {
         backgroundColor: Colors.black,
         body: Center(
           child: Stack(
+            // Indicamos la alineacion que tendran, 
+            // respecto al contenedor, cada uno de los hijos
             alignment: AlignmentDirectional.center,
             children: [
+              // Contenedor que se visualizara mas atras
               Container(
                 width: 300,
                 height: 300,
@@ -30,6 +33,7 @@ class StackScreen extends StatelessWidget {
                 height: 100,
                 color:  Colors.green[200],
               )
+              // Contenedor que se visualizara mas enfrente
             ]
           ),
         ));

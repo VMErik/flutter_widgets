@@ -67,19 +67,19 @@ class HomeScreen extends StatelessWidget {
                 "Widget colocado en la parte superior de la pantalla, normalmente utilizado para operaciones comunes, como acciones o menus",
             route: "appbar",
           ),
-           MyListTile(
+          MyListTile(
             name: "Drawer",
             description:
                 "Muestra un menu lateral el cual esta asociado con nuestro Appbar",
             route: "drawer",
           ),
-           MyListTile(
+          MyListTile(
             name: "SliverAppBar",
             description:
                 "Una forma mas elegante de mostrar un AppBar con una animacion al hacer scroll",
             route: "sliverapp",
           ),
-            MyListTile(
+          MyListTile(
             name: "TabBar",
             description:
                 "Nos permite agrupar en pestañas o tabs contenido dentro de nuestra screen",
@@ -91,35 +91,41 @@ class HomeScreen extends StatelessWidget {
                 "Nos permite crear contenedores de la forma tradicional pero con la peculiaridad de cambiar propiedades y animar estos cambios mediante transiciones",
             route: "animatedcontainer",
           ),
-            MyListTile(
+          MyListTile(
             name: "AlertDialog",
             description:
                 "Se utiliza para mostrar mensajes informativos en pantalla, con la capacidad tambien de generar interacion con el usuario",
             route: "alertdialog",
           ),
-             MyListTile(
+          MyListTile(
             name: "Text",
             description:
                 "Representa un texto en nuestra aplicacion, el cual puede ser altamente personalizado",
             route: "text",
           ),
-                 MyListTile(
+          MyListTile(
             name: "RichText",
             description:
                 "Nos permite estilizar mas a fond un texto, dividiendolo por pequeñas partes y accediendo a cada una de ellas de forma individual",
             route: "richtext",
           ),
-                 MyListTile(
+          MyListTile(
             name: "PageView",
             description:
                 "Es una lista a la que se le puede hacer scroll de forma horizontal o vertical,mostrando slamente un hijo a la vez",
             route: "pageview",
           ),
-                   MyListTile(
+          MyListTile(
             name: "Stack",
             description:
                 "Sirve para posicionar elementos uno encima del otro, pudiendo ocupar un mismo espacio en pantalla",
             route: "stack",
+          ),
+          MyListTile(
+            name: "Animated Icon",
+            description:
+                "Podremos cambiar de un icono a otro, agregando una transicion para verlo de una forma elegante",
+            route: "animatedicon",
           ),
         ],
       ),
