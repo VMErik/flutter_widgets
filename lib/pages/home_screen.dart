@@ -127,6 +127,12 @@ class HomeScreen extends StatelessWidget {
                 "Podremos cambiar de un icono a otro, agregando una transicion para verlo de una forma elegante",
             route: "animatedicon",
           ),
+           MyListTile(
+            name: "Slider",
+            description:
+                "Sirve para seleccionar un valor numerico entre un rango de valores",
+            route: "slider",
+          ),
         ],
       ),
     );

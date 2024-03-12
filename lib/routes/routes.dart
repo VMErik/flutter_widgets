@@ -16,6 +16,7 @@ import 'package:flutter_widgets_app/pages/list_view_screen.dart';
 import 'package:flutter_widgets_app/pages/pageview_screen.dart';
 import 'package:flutter_widgets_app/pages/richtext_screen.dart';
 import 'package:flutter_widgets_app/pages/row_screen.dart';
+import 'package:flutter_widgets_app/pages/slider_screen.dart';
 import 'package:flutter_widgets_app/pages/sliverappbar_screen.dart';
 import 'package:flutter_widgets_app/pages/stack_screen.dart';
 import 'package:flutter_widgets_app/pages/tabbar_screen.dart';
@@ -44,6 +45,8 @@ class RouterApp{
     '/pageview' : (BuildContext context) => PageViewScreen(),
     '/stack' : (BuildContext context) => const StackScreen(),
     '/animatedicon' : (BuildContext context) => const AnimatedIconScreen(),
+    '/slider' : (BuildContext context) => const SliderScreen(),
+
 
 
   };

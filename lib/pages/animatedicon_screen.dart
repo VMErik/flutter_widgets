@@ -16,6 +16,7 @@ class _AnimatedIconScreenState extends State<AnimatedIconScreen>
   @override
   void initState() {
     super.initState();
+    // Creamos nuestro controlador y establecemos la duracion de la animacion
     animationController =
         AnimationController(vsync: this, duration: const Duration(seconds: 1));
   }
@@ -40,8 +41,7 @@ class _AnimatedIconScreenState extends State<AnimatedIconScreen>
         ),
         body: Center(
           child: GestureDetector(
-            onTap: _isInHome,
-            
+            onTap: _isInHome, // Hacemos referencia a nuestra funcion que cambiara el controlador
             child: AnimatedIcon(
               size: 150,
               color: Colors.blue[800],
