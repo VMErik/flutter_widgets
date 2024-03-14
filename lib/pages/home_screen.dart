@@ -133,6 +133,12 @@ class HomeScreen extends StatelessWidget {
                 "Sirve para seleccionar un valor numerico entre un rango de valores",
             route: "slider",
           ),
+           MyListTile(
+            name: "Timer Picker",
+            description:
+                "Permite al usuario seleccionar una hora del dia.",
+            route: "timerpicker",
+          ),
         ],
       ),
     );

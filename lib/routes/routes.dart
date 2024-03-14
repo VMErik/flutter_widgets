@@ -21,6 +21,7 @@ import 'package:flutter_widgets_app/pages/sliverappbar_screen.dart';
 import 'package:flutter_widgets_app/pages/stack_screen.dart';
 import 'package:flutter_widgets_app/pages/tabbar_screen.dart';
 import 'package:flutter_widgets_app/pages/text_screen.dart';
+import 'package:flutter_widgets_app/pages/timerpicker_screen.dart';
 
 class RouterApp{
   static Map<String , WidgetBuilder> routes = {
@@ -46,8 +47,7 @@ class RouterApp{
     '/stack' : (BuildContext context) => const StackScreen(),
     '/animatedicon' : (BuildContext context) => const AnimatedIconScreen(),
     '/slider' : (BuildContext context) => const SliderScreen(),
-
-
+    '/timerpicker' : (BuildContext context) => const TimerPickerScreen(),
 
   };
 }
