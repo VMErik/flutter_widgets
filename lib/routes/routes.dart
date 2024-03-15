@@ -7,6 +7,7 @@ import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
 import 'package:flutter_widgets_app/pages/column_screen.dart';
 import 'package:flutter_widgets_app/pages/container_screen.dart';
+import 'package:flutter_widgets_app/pages/datepicker_screen.dart';
 import 'package:flutter_widgets_app/pages/drawer_screen.dart';
 import 'package:flutter_widgets_app/pages/expanded_screen.dart';
 import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
@@ -48,6 +49,7 @@ class RouterApp{
     '/animatedicon' : (BuildContext context) => const AnimatedIconScreen(),
     '/slider' : (BuildContext context) => const SliderScreen(),
     '/timerpicker' : (BuildContext context) => const TimerPickerScreen(),
+    '/datepicker' : (BuildContext context) => const DatePickerScreen(),
 
   };
 }

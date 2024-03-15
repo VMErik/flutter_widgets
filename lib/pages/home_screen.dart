@@ -139,6 +139,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite al usuario seleccionar una hora del dia.",
             route: "timerpicker",
           ),
+           MyListTile(
+            name: "Date Picker",
+            description:
+                "Permite al usuario seleccionar una fecha mostrando un calendario",
+            route: "datepicker",
+          ),
         ],
       ),
     );
