@@ -145,6 +145,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite al usuario seleccionar una fecha mostrando un calendario",
             route: "datepicker",
           ),
+          MyListTile(
+            name: "Dropdown Menu",
+            description:
+                "Permite mostrar una lista de opciones que se activa al presionar sobre el control, permitiendo filtrar y buscar en ella",
+            route: "dropdownmenu",
+          ),
         ],
       ),
     );

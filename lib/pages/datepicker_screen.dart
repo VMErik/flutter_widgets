@@ -8,15 +8,19 @@ class DatePickerScreen extends StatefulWidget {
 }
 
 class _DatePickerScreenState extends State<DatePickerScreen> {
+  // Variable para nuestra fecha
   DateTime _selectedDate = DateTime.now();
 
   void _showDatePicker() {
+    // Mostramos el date picker
     showDatePicker(
             context: context,
+            // Establecemos fecha de inicio, año inicial y año final que podremos elegir
             initialDate: DateTime.now(),
             firstDate: DateTime(2000),
             lastDate: DateTime(2025))
         .then((value) {
+          // Asignamos la fecha a nuestra variable y notificamos el cambio
           setState(() {
             _selectedDate = value!;
           });
