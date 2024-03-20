@@ -151,6 +151,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite mostrar una lista de opciones que se activa al presionar sobre el control, permitiendo filtrar y buscar en ella",
             route: "dropdownmenu",
           ),
+            MyListTile(
+            name: "Linear Gradient",
+            description:
+                "Permite decorar algun contendor o texto, aplicando un degradado de color",
+            route: "lineargradient",
+          ),
         ],
       ),
     );
