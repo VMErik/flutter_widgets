@@ -13,6 +13,7 @@ import 'package:flutter_widgets_app/pages/dropdownmenu_screen.dart';
 import 'package:flutter_widgets_app/pages/expanded_screen.dart';
 import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
 import 'package:flutter_widgets_app/pages/gridview_screen.dart';
+import 'package:flutter_widgets_app/pages/wrap_screen.dart';
 import 'package:flutter_widgets_app/pages/imageasset_screen.dart';
 import 'package:flutter_widgets_app/pages/lineargradient_screen.dart';
 import 'package:flutter_widgets_app/pages/list_view_screen.dart';
@@ -54,6 +55,7 @@ class RouterApp{
     '/datepicker' : (BuildContext context) => const DatePickerScreen(),
     '/dropdownmenu' :  (BuildContext context) => const DropDownMenuScreen(),
     '/lineargradient' :  (BuildContext context) => const LinearGradientScreen(),
+    '/wrap' :  (BuildContext context) => const WrapScreen(),
 
   };
 }

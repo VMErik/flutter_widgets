@@ -157,6 +157,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite decorar algun contendor o texto, aplicando un degradado de color",
             route: "lineargradient",
           ),
+           MyListTile(
+            name: "Wrap",
+            description:
+                "Permite ajustar sus hijos al tamaño de la pantalla, dejando un espacio entre ellos y adaptando su tamaño conforme los childs",
+            route: "wrap",
+          ),
         ],
       ),
     );
