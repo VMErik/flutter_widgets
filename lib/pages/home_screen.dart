@@ -163,6 +163,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite ajustar sus hijos al tamaño de la pantalla, dejando un espacio entre ellos y adaptando su tamaño conforme los childs",
             route: "wrap",
           ),
+           MyListTile(
+            name: "Buttons",
+            description:
+                "Flutter tiene muchos widgets que generan botones, pero aqui te pongo los mas comunes",
+            route: "buttons",
+          ),
         ],
       ),
     );

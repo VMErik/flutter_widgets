@@ -4,6 +4,7 @@ import 'package:flutter_widgets_app/pages/animatedcontainer_screen.dart';
 import 'package:flutter_widgets_app/pages/animatedicon_screen.dart';
 import 'package:flutter_widgets_app/pages/appbar_screen.dart';
 import 'package:flutter_widgets_app/pages/bottomnavbar_screen.dart';
+import 'package:flutter_widgets_app/pages/buttons_screen.dart';
 import 'package:flutter_widgets_app/pages/cliprrect_screen.dart';
 import 'package:flutter_widgets_app/pages/column_screen.dart';
 import 'package:flutter_widgets_app/pages/container_screen.dart';
@@ -56,6 +57,6 @@ class RouterApp{
     '/dropdownmenu' :  (BuildContext context) => const DropDownMenuScreen(),
     '/lineargradient' :  (BuildContext context) => const LinearGradientScreen(),
     '/wrap' :  (BuildContext context) => const WrapScreen(),
-
+    '/buttons' :  (BuildContext context) => const ButtonsScreen(),
   };
 }
