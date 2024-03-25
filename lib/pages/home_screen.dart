@@ -169,6 +169,12 @@ class HomeScreen extends StatelessWidget {
                 "Flutter tiene muchos widgets que generan botones, pero aqui te pongo los mas comunes",
             route: "buttons",
           ),
+           MyListTile(
+            name: "Padding",
+            description:
+                "Sirve para añadir un 'relleno' que permite al child acomodarse en ese nuevo espacio disponible",
+            route: "padding",
+          ),
         ],
       ),
     );
