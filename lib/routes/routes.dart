@@ -14,6 +14,7 @@ import 'package:flutter_widgets_app/pages/dropdownmenu_screen.dart';
 import 'package:flutter_widgets_app/pages/expanded_screen.dart';
 import 'package:flutter_widgets_app/pages/gesturedetector_screen.dart';
 import 'package:flutter_widgets_app/pages/gridview_screen.dart';
+import 'package:flutter_widgets_app/pages/hero_screen.dart';
 import 'package:flutter_widgets_app/pages/padding_screen.dart';
 import 'package:flutter_widgets_app/pages/wrap_screen.dart';
 import 'package:flutter_widgets_app/pages/imageasset_screen.dart';
@@ -60,6 +61,7 @@ class RouterApp{
     '/wrap' :  (BuildContext context) => const WrapScreen(),
     '/buttons' :  (BuildContext context) => const ButtonsScreen(),
     '/padding' :  (BuildContext context) => const PaddingScreen(),
+    '/hero' :  (BuildContext context) => const HeroScreen(),
 
   };
 }

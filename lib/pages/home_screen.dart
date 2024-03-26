@@ -175,6 +175,12 @@ class HomeScreen extends StatelessWidget {
                 "Sirve para añadir un 'relleno' que permite al child acomodarse en ese nuevo espacio disponible",
             route: "padding",
           ),
+           MyListTile(
+            name: "Hero",
+            description:
+                "Permite crear una aimacion entre dos pantallas, asociandolo a un widget en especifico",
+            route: "hero",
+          ),
         ],
       ),
     );
