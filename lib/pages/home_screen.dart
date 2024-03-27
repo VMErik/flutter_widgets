@@ -181,6 +181,12 @@ class HomeScreen extends StatelessWidget {
                 "Permite crear una aimacion entre dos pantallas, asociandolo a un widget en especifico",
             route: "hero",
           ),
+            MyListTile(
+            name: "Scrollbar",
+            description:
+                "Funciona con Widgets Scrollabes como ListView, GridVieew o CustomScrollView, y nos permite la nagevacion por el control",
+            route: "scrollbar",
+          ),
         ],
       ),
     );
