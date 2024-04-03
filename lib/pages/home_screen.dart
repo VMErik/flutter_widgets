@@ -187,6 +187,12 @@ class HomeScreen extends StatelessWidget {
                 "Funciona con Widgets Scrollabes como ListView, GridVieew o CustomScrollView, y nos permite la nagevacion por el control",
             route: "scrollbar",
           ),
+          MyListTile(
+            name: "Icon",
+            description:
+                "Como su nombre lo dice, sirve para renderizar un icono del amplio catalogo que Flutter nos ofrece",
+            route: "icon",
+          ),
         ],
       ),
     );
